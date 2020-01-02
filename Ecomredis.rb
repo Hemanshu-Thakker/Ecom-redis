@@ -1,6 +1,5 @@
 class User
 	$all_orders= Hash.new
-	@@temp=Hash.new
 	attr_accessor :name, :balance, :password 
 	def initialize(name,password,address,balance)
 		@name=name
